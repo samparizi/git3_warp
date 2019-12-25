@@ -70,13 +70,13 @@ hf0 = hf0.permute(2,0,1)  #for the new dataset
 
 print('hf0 after squeeze', hf0.shape)
 
-######################## h5 file ####################
+######################## load file ####################
 
-
+import pdb; pdb.set_trace()
 print('\n\nth0_torch_tensor', th0.shape)
 
 output = open('/Users/mostafa/Desktop/datas/train/data_1.pkl', 'wb')
-pkl.dump(hf0, output)
+pkl.dump(th0, output)
 output.close()
 
 
@@ -117,12 +117,6 @@ output.close()
 args = modules.args.parser.parse_args()
 
 viz = visdom.Visdom(env=args.env)
-
-
-
-# exit()
-
-
 
 def main():
 
