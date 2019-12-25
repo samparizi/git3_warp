@@ -9,7 +9,6 @@ from modules.meter import AverageMeters
 import numpy as np
 
 import h5py
-
 import visdom
 
 
