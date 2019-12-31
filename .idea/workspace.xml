@@ -2,103 +2,88 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e79f686e-ddfe-4280-a5ae-8971e23078b8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/train.py" afterPath="$PROJECT_DIR$/train.py" />
+      <change beforePath="$PROJECT_DIR$/.idea/git3_warp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/git3_warp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/train.py" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="train.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/train.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/train.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="46" />
-    <option name="y" value="23" />
-    <option name="width" value="1093" />
-    <option name="height" value="777" />
-  </component>
-  <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="git3_warp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git3_warp" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-    </panes>
+  <component name="ProjectId" id="1VUraZh23nM8xWS3aUdnXBCqdGN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="PyConsoleConfigurable.Python Console" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
-      <console-settings module-name="git3_warp" sdk-home="$USER_HOME$/anaconda2/bin/python" working-directory="$USER_HOME$/Storage Drives/Dropbox/ProgFiles/PycharmProjects">
-        <option name="mySdkHome" value="$USER_HOME$/anaconda2/bin/python" />
+      <console-settings module-name="git3_warp" is-module-sdk="true" working-directory="$PROJECT_DIR$/..">
+        <option name="myUseModuleSdk" value="true" />
         <option name="myModuleName" value="git3_warp" />
-        <option name="myWorkingDirectory" value="$USER_HOME$/Storage Drives/Dropbox/ProgFiles/PycharmProjects" />
+        <option name="myWorkingDirectory" value="$PROJECT_DIR$/.." />
       </console-settings>
     </option>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="RunManager">
+    <configuration name="train" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="git3_warp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <item itemvalue="Python.train" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
       </list>
     </option>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -110,172 +95,122 @@
     </task>
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="46" y="23" width="1093" height="777" extended-state="0" />
-    <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25404376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32928678" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-    </layout>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="WindowStateProjectService">
+    <state x="44" y="171" key="#xdebugger.XInspectDialog" timestamp="1577768236301">
+      <screen x="44" y="23" width="1236" height="777" />
+    </state>
+    <state x="44" y="171" key="#xdebugger.XInspectDialog/44.23.1236.777@44.23.1236.777" timestamp="1577768236301" />
+    <state x="423" y="122" key="#xdebugger.evaluate" timestamp="1577768184812">
+      <screen x="44" y="23" width="1236" height="777" />
+    </state>
+    <state x="423" y="122" key="#xdebugger.evaluate/44.23.1236.777@44.23.1236.777" timestamp="1577768184812" />
+    <state x="323" y="23" key="CommitChangelistDialog2" timestamp="1577679735700">
+      <screen x="43" y="23" width="1237" height="777" />
+    </state>
+    <state x="323" y="23" key="CommitChangelistDialog2/43.23.1237.777@43.23.1237.777" timestamp="1577679735700" />
+    <state x="418" y="183" key="EnvironmentVariablesDialog" timestamp="1577769443434">
+      <screen x="44" y="23" width="1236" height="777" />
+    </state>
+    <state x="418" y="183" key="EnvironmentVariablesDialog/44.23.1236.777@44.23.1236.777" timestamp="1577769443434" />
+    <state x="448" y="172" key="FileChooserDialogImpl" timestamp="1577318738517">
+      <screen x="41" y="23" width="1239" height="777" />
+    </state>
+    <state x="448" y="172" key="FileChooserDialogImpl/41.23.1239.777@41.23.1239.777" timestamp="1577318738517" />
+    <state width="1198" height="184" key="GridCell.Tab.0.bottom" timestamp="1577776915182">
+      <screen x="46" y="23" width="1234" height="777" />
+    </state>
+    <state width="1198" height="184" key="GridCell.Tab.0.bottom/39.23.1241.777@39.23.1241.777" timestamp="1577334019963" />
+    <state width="1198" height="184" key="GridCell.Tab.0.bottom/40.23.1240.777@40.23.1240.777" timestamp="1577334152003" />
+    <state width="1198" height="229" key="GridCell.Tab.0.bottom/41.23.1239.777@41.23.1239.777" timestamp="1577318804241" />
+    <state width="1198" height="184" key="GridCell.Tab.0.bottom/43.23.1237.777@43.23.1237.777" timestamp="1577667745251" />
+    <state width="1198" height="184" key="GridCell.Tab.0.bottom/44.23.1236.777@44.23.1236.777" timestamp="1577776741680" />
+    <state width="1198" height="184" key="GridCell.Tab.0.bottom/46.23.1234.777@46.23.1234.777" timestamp="1577776915182" />
+    <state width="1198" height="184" key="GridCell.Tab.0.center" timestamp="1577776915181">
+      <screen x="46" y="23" width="1234" height="777" />
+    </state>
+    <state width="1198" height="184" key="GridCell.Tab.0.center/39.23.1241.777@39.23.1241.777" timestamp="1577334019962" />
+    <state width="1198" height="184" key="GridCell.Tab.0.center/40.23.1240.777@40.23.1240.777" timestamp="1577334152002" />
+    <state width="1198" height="229" key="GridCell.Tab.0.center/41.23.1239.777@41.23.1239.777" timestamp="1577318804239" />
+    <state width="1198" height="184" key="GridCell.Tab.0.center/43.23.1237.777@43.23.1237.777" timestamp="1577667745250" />
+    <state width="1198" height="184" key="GridCell.Tab.0.center/44.23.1236.777@44.23.1236.777" timestamp="1577776741679" />
+    <state width="1198" height="184" key="GridCell.Tab.0.center/46.23.1234.777@46.23.1234.777" timestamp="1577776915181" />
+    <state width="1198" height="184" key="GridCell.Tab.0.left" timestamp="1577776915180">
+      <screen x="46" y="23" width="1234" height="777" />
+    </state>
+    <state width="1198" height="184" key="GridCell.Tab.0.left/39.23.1241.777@39.23.1241.777" timestamp="1577334019962" />
+    <state width="1198" height="184" key="GridCell.Tab.0.left/40.23.1240.777@40.23.1240.777" timestamp="1577334152002" />
+    <state width="1198" height="229" key="GridCell.Tab.0.left/41.23.1239.777@41.23.1239.777" timestamp="1577318804238" />
+    <state width="1198" height="184" key="GridCell.Tab.0.left/43.23.1237.777@43.23.1237.777" timestamp="1577667745250" />
+    <state width="1198" height="184" key="GridCell.Tab.0.left/44.23.1236.777@44.23.1236.777" timestamp="1577776741679" />
+    <state width="1198" height="184" key="GridCell.Tab.0.left/46.23.1234.777@46.23.1234.777" timestamp="1577776915180" />
+    <state width="1198" height="184" key="GridCell.Tab.0.right" timestamp="1577776915181">
+      <screen x="46" y="23" width="1234" height="777" />
+    </state>
+    <state width="1198" height="184" key="GridCell.Tab.0.right/39.23.1241.777@39.23.1241.777" timestamp="1577334019963" />
+    <state width="1198" height="184" key="GridCell.Tab.0.right/40.23.1240.777@40.23.1240.777" timestamp="1577334152003" />
+    <state width="1198" height="229" key="GridCell.Tab.0.right/41.23.1239.777@41.23.1239.777" timestamp="1577318804240" />
+    <state width="1198" height="184" key="GridCell.Tab.0.right/43.23.1237.777@43.23.1237.777" timestamp="1577667745251" />
+    <state width="1198" height="184" key="GridCell.Tab.0.right/44.23.1236.777@44.23.1236.777" timestamp="1577776741679" />
+    <state width="1198" height="184" key="GridCell.Tab.0.right/46.23.1234.777@46.23.1234.777" timestamp="1577776915181" />
+    <state width="1198" height="229" key="GridCell.Tab.1.bottom" timestamp="1577769538007">
+      <screen x="46" y="23" width="1234" height="777" />
+    </state>
+    <state width="1198" height="229" key="GridCell.Tab.1.bottom/39.23.1241.777@39.23.1241.777" timestamp="1577320874101" />
+    <state width="1198" height="229" key="GridCell.Tab.1.bottom/40.23.1240.777@40.23.1240.777" timestamp="1577333904253" />
+    <state width="1198" height="229" key="GridCell.Tab.1.bottom/41.23.1239.777@41.23.1239.777" timestamp="1577318806771" />
+    <state width="1198" height="229" key="GridCell.Tab.1.bottom/43.23.1237.777@43.23.1237.777" timestamp="1577667745207" />
+    <state width="1198" height="229" key="GridCell.Tab.1.bottom/44.23.1236.777@44.23.1236.777" timestamp="1577769491276" />
+    <state width="1198" height="229" key="GridCell.Tab.1.bottom/46.23.1234.777@46.23.1234.777" timestamp="1577769538007" />
+    <state width="1198" height="229" key="GridCell.Tab.1.center" timestamp="1577769538006">
+      <screen x="46" y="23" width="1234" height="777" />
+    </state>
+    <state width="1198" height="229" key="GridCell.Tab.1.center/39.23.1241.777@39.23.1241.777" timestamp="1577320874100" />
+    <state width="1198" height="229" key="GridCell.Tab.1.center/40.23.1240.777@40.23.1240.777" timestamp="1577333904252" />
+    <state width="1198" height="229" key="GridCell.Tab.1.center/41.23.1239.777@41.23.1239.777" timestamp="1577318806770" />
+    <state width="1198" height="229" key="GridCell.Tab.1.center/43.23.1237.777@43.23.1237.777" timestamp="1577667745206" />
+    <state width="1198" height="229" key="GridCell.Tab.1.center/44.23.1236.777@44.23.1236.777" timestamp="1577769491275" />
+    <state width="1198" height="229" key="GridCell.Tab.1.center/46.23.1234.777@46.23.1234.777" timestamp="1577769538006" />
+    <state width="1198" height="229" key="GridCell.Tab.1.left" timestamp="1577769538006">
+      <screen x="46" y="23" width="1234" height="777" />
+    </state>
+    <state width="1198" height="229" key="GridCell.Tab.1.left/39.23.1241.777@39.23.1241.777" timestamp="1577320874100" />
+    <state width="1198" height="229" key="GridCell.Tab.1.left/40.23.1240.777@40.23.1240.777" timestamp="1577333904252" />
+    <state width="1198" height="229" key="GridCell.Tab.1.left/41.23.1239.777@41.23.1239.777" timestamp="1577318806769" />
+    <state width="1198" height="229" key="GridCell.Tab.1.left/43.23.1237.777@43.23.1237.777" timestamp="1577667745206" />
+    <state width="1198" height="229" key="GridCell.Tab.1.left/44.23.1236.777@44.23.1236.777" timestamp="1577769491274" />
+    <state width="1198" height="229" key="GridCell.Tab.1.left/46.23.1234.777@46.23.1234.777" timestamp="1577769538006" />
+    <state width="1198" height="229" key="GridCell.Tab.1.right" timestamp="1577769538007">
+      <screen x="46" y="23" width="1234" height="777" />
+    </state>
+    <state width="1198" height="229" key="GridCell.Tab.1.right/39.23.1241.777@39.23.1241.777" timestamp="1577320874101" />
+    <state width="1198" height="229" key="GridCell.Tab.1.right/40.23.1240.777@40.23.1240.777" timestamp="1577333904253" />
+    <state width="1198" height="229" key="GridCell.Tab.1.right/41.23.1239.777@41.23.1239.777" timestamp="1577318806770" />
+    <state width="1198" height="229" key="GridCell.Tab.1.right/43.23.1237.777@43.23.1237.777" timestamp="1577667745206" />
+    <state width="1198" height="229" key="GridCell.Tab.1.right/44.23.1236.777@44.23.1236.777" timestamp="1577769491275" />
+    <state width="1198" height="229" key="GridCell.Tab.1.right/46.23.1234.777@46.23.1234.777" timestamp="1577769538007" />
+    <state x="165" y="50" key="SettingsEditor" timestamp="1577769456675">
+      <screen x="44" y="23" width="1236" height="777" />
+    </state>
+    <state x="162" y="50" key="SettingsEditor/41.23.1239.777@41.23.1239.777" timestamp="1577318745769" />
+    <state x="165" y="50" key="SettingsEditor/44.23.1236.777@44.23.1236.777" timestamp="1577769456675" />
+    <state x="339" y="244" key="com.intellij.ide.util.TipDialog" timestamp="1577679679746">
+      <screen x="43" y="23" width="1237" height="777" />
+    </state>
+    <state x="337" y="244" key="com.intellij.ide.util.TipDialog/41.23.1239.777@41.23.1239.777" timestamp="1577318584066" />
+    <state x="339" y="244" key="com.intellij.ide.util.TipDialog/43.23.1237.777@43.23.1237.777" timestamp="1577679679746" />
+    <state x="224" y="154" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1577333271307">
+      <screen x="40" y="23" width="1240" height="777" />
+    </state>
+    <state x="224" y="154" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/40.23.1240.777@40.23.1240.777" timestamp="1577333271307" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/advecdiffus.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#1#22#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/args.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/dencoders.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#1#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/dtset.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/grids.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/flowlib.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#185#195#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/grids.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/flowlib.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#185#195#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/advecdiffus.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="40" lean-forward="true" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
-          <folding>
-            <element signature="e#1#22#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/args.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/dencoders.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#1#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/dtset.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="th0" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

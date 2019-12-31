@@ -7,6 +7,11 @@ import modules.losses as losses
 import modules.plots as plot
 from modules.meter import AverageMeters
 import numpy as np
+import pandas as pd
+
+import modules.loading as load
+
+
 
 import h5py
 import visdom
@@ -27,97 +32,18 @@ from torchvision import transforms
 from netCDF4 import Dataset
 
 
-########################nc file ####################
-ncfile = '/Users/mostafa/Desktop/datas/nnx2.nc'
-fh = Dataset(ncfile, mode='r')
-# th0 = fh.variables['thetao'][:]
-# th0 = fh.variables['thetao'][0,0,:,:]
-th0 = fh.variables['thetao'][:]
-print('th0', th0.shape)
-th0 = np.array(th0)
-print('th0', th0.shape)
-
-th0 = torch.Tensor(th0)
-th0 = torch.squeeze(th0)
-print('th0 after squeeze', th0.shape)
-
-########################nc file ####################
-
-
-
-
-######################## h5 file ####################
-
-# hpfile = '/Users/mostafa/Desktop/P_train_pc.h5'
-hpfile = '/Users/mostafa/Desktop/datas/myfile.h5'
-
-hf = h5py.File(hpfile, 'r')
-hf0 = hf['DS3'][:]
-
-print('\n\nhf0', hf0.shape)
-
-hf0 = np.array(hf0).astype('float')
-
-
-hf0 = torch.Tensor(hf0)
-
-print('\n\nth0_torch_tensor', th0.size())
-
-hf0 = torch.Tensor(hf0)
-
-hf0 = hf0.permute(2,0,1)  #for the new dataset
-
-print('hf0 after squeeze', hf0.shape)
-
-######################## load file ####################
-
-import pdb; pdb.set_trace()
-print('\n\nth0_torch_tensor', th0.shape)
-
-output = open('/Users/mostafa/Desktop/datas/train/data_1.pkl', 'wb')
-pkl.dump(th0, output)
-output.close()
-
-
-
-
-
-######################## test file ####################
-
-# ncfile = '/Users/mostafa/Desktop/datas/test/nnx4.nc'
-# fh = Dataset(ncfile, mode='r')
-# th0 = fh.variables['thetao'][:]
-#
-# print('th0000', th0.shape)
-#
-# th0 = np.array(th0)
-#
-# print('th0000', th0.shape)
-#
-# th0 = torch.Tensor(th0)
-#
-# print('th0000', th0.shape)
-#
-#
-# th0 = torch.squeeze(th0)
-#
-# print('th0000', th0.shape)
-# output = open('/Users/mostafa/Desktop/datas/test/data_1.pkl', 'wb')
-# pkl.dump(th0, output)
-# output.close()
-#
-# # data = pkl.load(open('/Users/mostafa/Desktop/datas/test/data_1.pkl', 'rb'))
-# # print('data', data.shape)
-
-######################## test file ####################
-
-
-
 args = modules.args.parser.parse_args()
 
 viz = visdom.Visdom(env=args.env)
 
 def main():
+
+    hf0 = load.h5py_sandeep()
+    # import pdb; pdb.set_trace()
+    # print('\n\nth0_torch_tensor', th0.shape)  # for this loading function
+    output = open('/Users/mostafa/Desktop/datas/train/data_1.pkl', 'wb')
+    pkl.dump(hf0, output)
+    output.close()
 
     # print('>>>> loading the dataset...\n')
 
