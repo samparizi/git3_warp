@@ -28,7 +28,7 @@
   <component name="PropertiesComponent">
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="PyConsoleConfigurable.Python Console" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -112,10 +112,11 @@
       <screen x="44" y="23" width="1236" height="777" />
     </state>
     <state x="418" y="183" key="EnvironmentVariablesDialog/44.23.1236.777@44.23.1236.777" timestamp="1577769443434" />
-    <state x="448" y="172" key="FileChooserDialogImpl" timestamp="1577318738517">
-      <screen x="41" y="23" width="1239" height="777" />
+    <state x="453" y="172" key="FileChooserDialogImpl" timestamp="1578001590770">
+      <screen x="49" y="23" width="1231" height="777" />
     </state>
     <state x="448" y="172" key="FileChooserDialogImpl/41.23.1239.777@41.23.1239.777" timestamp="1577318738517" />
+    <state x="453" y="172" key="FileChooserDialogImpl/49.23.1231.777@49.23.1231.777" timestamp="1578001590770" />
     <state width="1198" height="184" key="GridCell.Tab.0.bottom" timestamp="1577778827499">
       <screen x="43" y="23" width="1237" height="777" />
     </state>
@@ -188,16 +189,18 @@
     <state width="1198" height="229" key="GridCell.Tab.1.right/43.23.1237.777@43.23.1237.777" timestamp="1577778827494" />
     <state width="1198" height="229" key="GridCell.Tab.1.right/44.23.1236.777@44.23.1236.777" timestamp="1577769491275" />
     <state width="1198" height="229" key="GridCell.Tab.1.right/46.23.1234.777@46.23.1234.777" timestamp="1577769538007" />
-    <state x="165" y="50" key="SettingsEditor" timestamp="1577769456675">
-      <screen x="44" y="23" width="1236" height="777" />
+    <state x="170" y="50" key="SettingsEditor" timestamp="1578001628550">
+      <screen x="49" y="23" width="1231" height="777" />
     </state>
     <state x="162" y="50" key="SettingsEditor/41.23.1239.777@41.23.1239.777" timestamp="1577318745769" />
     <state x="165" y="50" key="SettingsEditor/44.23.1236.777@44.23.1236.777" timestamp="1577769456675" />
-    <state x="339" y="244" key="com.intellij.ide.util.TipDialog" timestamp="1577679679746">
-      <screen x="43" y="23" width="1237" height="777" />
+    <state x="170" y="50" key="SettingsEditor/49.23.1231.777@49.23.1231.777" timestamp="1578001628550" />
+    <state x="344" y="244" key="com.intellij.ide.util.TipDialog" timestamp="1577996397735">
+      <screen x="49" y="23" width="1231" height="777" />
     </state>
     <state x="337" y="244" key="com.intellij.ide.util.TipDialog/41.23.1239.777@41.23.1239.777" timestamp="1577318584066" />
     <state x="339" y="244" key="com.intellij.ide.util.TipDialog/43.23.1237.777@43.23.1237.777" timestamp="1577679679746" />
+    <state x="344" y="244" key="com.intellij.ide.util.TipDialog/49.23.1231.777@49.23.1231.777" timestamp="1577996397735" />
     <state x="224" y="154" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1577333271307">
       <screen x="40" y="23" width="1240" height="777" />
     </state>
