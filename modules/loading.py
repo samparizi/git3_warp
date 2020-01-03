@@ -56,6 +56,11 @@ def nc_file():
     th0 = torch.Tensor(th0)
     th0 = torch.squeeze(th0)
     print('th0 after squeeze', th0.shape)
+    
+    
+def myfile():
+    
+    return hf0
 
 
 
