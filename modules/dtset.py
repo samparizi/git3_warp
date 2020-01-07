@@ -19,13 +19,21 @@ class Dset(torch.utils.data.Dataset):
         self.seq_len = seq_len
         self.target_seq_len = target_seq_len
         self.transform = transform
+        # self.transform = transforms.Compose([
+        #     transforms.ToPILImage(),
+        #     # transforms.CenterCrop(10),
+        #     transforms.Resize(size=(64, 64)),
+        #     # transforms.Resize(60),
+        #     transforms.ToTensor(),
+        #     # transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225]),
+        # ])
 
         self.data = {}
 
         for zone in zones:
-            self.data[zone] = pkl.load(open('/Users/mostafa/Desktop/datas/train/data_1.pkl', 'rb'))
+            self.data[zone] = pkl.load(open('/Users/mostafa/Dropbox/progs/datas/train/data_1.pkl', 'rb'))
 
-        self.num_single = self.data[zones[0]].shape[0] - self.seq_len - self.target_seq_len  #- 1
+        self.num_single = self.data[zones[0]].shape[0] - self.seq_len - self.target_seq_len - 1  # ( # -1 ?)
         self.num = self.num_single * len(zones)
 
     def __getitem__(self, index):
@@ -33,15 +41,6 @@ class Dset(torch.utils.data.Dataset):
         zone = self.zones[index // (self.num_single - 1)]
         sample_num = index % (self.num_single - 1)
         pdata = self.data[zone]
-
-        # # # self.data = pkl.load(open('/Users/mostafa/Desktop/datas/train/data_1.pkl', 'rb'))
-        # # sample_num = index
-        # # sample_num = index % (self.num - 1)
-        # sample_num = self.num
-        #
-        print('sample_num', sample_num)
-        #
-        # pdata = self.data
 
         input = pdata[sample_num: sample_num + self.seq_len, :, :]
         target = pdata[sample_num + self.seq_len: sample_num + self.seq_len + self.target_seq_len, :, :]
